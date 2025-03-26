@@ -19,6 +19,8 @@ Adilson Gonzaga, Ingrid Oliveira, Talita Munis e Thiago de Lima Chagas.
 ### 1.1. Objetivo do Documento
 Este documento descreve o plano de testes do sistema MyStock, especificando os requisitos a serem testados, os tipos de testes definidos, os recursos necessários e o cronograma de execução. Ele serve como uma referência para acompanhar a evolução dos testes e garantir a qualidade do software.
 
+link repositório original: [https://github.com/ThiagoLimaC/microProjeto-python-MyStock.git]
+
 ### 1.2. Visão Geral do Projeto
 O MyStock é um sistema de gerenciamento de estoque e vendas desenvolvido em Python. Suas principais funcionalidades incluem o cadastro de produtos, controle de estoque, registro de clientes e acompanhamento de vendas. Para assegurar seu funcionamento correto e confiável, serão realizados diversos testes automatizados utilizando pytest, abrangendo testes funcionais, unitários e de integração.
 
