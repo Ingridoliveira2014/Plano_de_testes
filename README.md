@@ -73,7 +73,7 @@ Cadastro de produtos, clientes e vendas
 Gerenciamento de estoque
 Registro e consulta de vendas
 
-test_sistema_completo
+_test_sistema_completo_
 
 Objetivo do Teste: Validar o funcionamento completo do sistema de vendas, incluindo a integração entre a interface do usuário, a manipulação de estoque, o cadastro de vendas e a atualização das informações exibidas na tela.
 
@@ -136,7 +136,7 @@ Resumo do Resultado: Os erros encontrados justificam o fracasso do teste de sist
 
 Serão realizados testes automatizados com pytest para verificar o correto funcionamento de funções individuais do sistema.
 
-test_insercaoProduto
+_test_insercaoProduto_
 
 Objetivo do teste: Verificar se a inserção de um novo produto no banco de dados ocorre corretamente e se o produto é encontrado na busca pelo código.
 
@@ -144,7 +144,7 @@ Resultado Esperado: Após a execução do teste, o produto deve ser inserido no 
 
 Resultado Real: O teste verificou a inserção de um produto e sua presença no banco de dados após a operação. O comportamento foi conforme o esperado, ou seja, o produto foi corretamente registrado e localizado.
 
-test_atualizacaoProduto
+_test_atualizacaoProduto_
 
 Objetivo do Teste: Testar a atualização de um produto no sistema, garantindo que as informações do produto sejam alteradas corretamente no banco de dados após a execução da operação de atualização.
 
@@ -152,7 +152,7 @@ Resultado Esperado: A Entrada Inicial: Produto com código "P0021", nome "Calcul
 
 Resultado Real: O teste verificou a atualização do produto, e os dados no banco de dados foram modificados corretamente, conforme esperado.
 
-test_exclusaoProduto
+_test_exclusaoProduto_
 
 Objetivo do teste: Verificar se a exclusão de um produto da base de dados ocorre corretamente, garantindo que o produto não possa ser encontrado após a exclusão.
 
@@ -160,7 +160,7 @@ Resultado esperado: Após excluir o produto com código " ", o banco de dados n�
 
 Resultado real: O teste passou com sucesso, indicando que o produto foi excluído corretamente.
 
-test_insercaoEstoque
+_test_insercaoEstoque_
 
 Objetivo do Teste: Testar a inserção de um produto e seu respectivo estoque no sistema, garantindo que ambos sejam registrados corretamente no banco de dados.
 
@@ -176,7 +176,7 @@ Resultado: O banco de dados deve registrar o estoque do produto "P0022" com as q
 
 Resultado Real: O teste verificou a inserção de um novo produto e do estoque associado no banco de dados. Ambos foram registrados corretamente.
 
-test_atualizacaoEstoque
+_test_atualizacaoEstoque_
 
 Objetivo do teste: Verificar se a atualização do estoque de um produto no banco de dados está funcionando corretamente.
 
@@ -184,7 +184,7 @@ Resultado esperado: O sistema deve ser capaz de atualizar a quantidade, quantida
 
 Resultado real: O estoque foi atualizado com sucesso no banco de dados. As informações do produto e do estoque foram corretamente salvas e alteradas conforme esperado.
 
-test_exclusaoEstoque
+_test_exclusaoEstoque_
 
 Objetivo do Teste: Verificar se o processo de exclusão de um item de estoque está funcionando corretamente, garantindo que o produto seja removido da base de dados após a execução da ação de exclusão.
 
@@ -192,7 +192,7 @@ Resultado Esperado: O produto deve ser excluído do estoque; o banco de dados n�
 
 Resultado Real: O teste confirmou que a exclusão do item de estoque foi realizada corretamente. A busca retornou um resultado vazio, o que indica que o item foi removido com sucesso da base de dados.
 
-test_atualizavendaEstoque
+_test_atualizavendaEstoque_
 
 Objetivo do Teste: Verificar a atualização correta da quantidade de estoque após uma venda, garantindo que a quantidade do produto no estoque seja reduzida corretamente.
 
@@ -231,7 +231,7 @@ Problema: Pode haver problemas na interação entre a interface do usuário e os
 
 Avaliarão a comunicação entre os módulos do sistema, garantindo que o fluxo de dados entre cadastro de produtos, estoque e vendas funcione corretamente.
 
-test_conexao_banco
+_test_conexao_banco_
 
 Objetivo do Teste: Validar se a conexão com o banco de dados é realizada corretamente.
 
@@ -243,7 +243,7 @@ Resultado Real: O teste de conexão com o banco de dados passou sem problemas.
 
 Serão executados testes básicos para medir o tempo de resposta das principais operações do sistema, garantindo eficiência nas transações.
 
-test_benchmark_consulta
+_test_benchmark_consulta_
 
 Objetivo do teste: Avaliar o desempenho da consulta no banco de dados, medindo o tempo de execução e a consistência do comportamento ao longo das execuções.
 
