@@ -9,9 +9,10 @@
    Data    | Versão |    Descrição   | Autor(a)
 -----------|--------|----------------|-----------------
 16/03/2025 |  1.0   | Release incial | Ingrid Oliveira
+23/03/2025 |  1.0   | Release final  | Thiago Lima
 
 ## Integrantes da Equipe
-Adilson Gonzaga, Ingrid Oliveira, Talita Munis e Thiago de Chagas.
+Adilson Gonzaga, Ingrid Oliveira, Talita Munis e Thiago de Lima Chagas.
 
 ## 1 - Introdução
 
