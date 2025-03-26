@@ -39,7 +39,12 @@ Esta seção apresenta os requisitos funcionais e não funcionais do sistema MyS
 
 Identificador do caso de uso | Nome do caso de uso
 -----------------------------|------------------------------------
-id UC1                       |  Gerenciamento de Estoque e Vendas
+id UC1                       |  Cadastro de Produto
+id UC2                       |  Edição de Produto
+id UC3                       |  Exclusão de Produto
+id UC4                       |  Cadastro de Produto no Estoque
+id UC5                       |  Edição de Produto no Estoque
+id UC6                       |  Exclusão de Produto no Estoque
                  
 
 ### Requisitos não-funcionais:
@@ -49,6 +54,8 @@ Identificador do requisito   | Nome do requisito
 id req1                      |      Implementação em Python
 id req2                      |      Interface simples e intuitiva
 id req3                      |      Código comentado para fácil manutenção e extensibilidade
+id req4                      |      Conexão estável com banco de dados
+id req5                      |      Desempenho razoável ao realizar uma consulta no 
 
 
 ## 3 - Tipos de teste
@@ -92,14 +99,3 @@ Hardware:
 Os testes do MyStock serão conduzidos utilizando a seguinte ferramenta:
 
 - pytest: Framework para execução de testes automatizados em Python, permitindo a validação de funcionalidades e integração entre módulos.
-
-
-## 5 - Cronograma
-
-Tipo de teste      | Duração | data de início | data de término
--------------------|---------|----------------|-----------------
-planejar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-projetar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-implementar teste  |         | dd/mm/aaaa     | dd/mm/aaaa
-executar teste     |         | dd/mm/aaaa     | dd/mm/aaaa
-avaliar teste      |         | dd/mm/aaaa     | dd/mm/aaaa
